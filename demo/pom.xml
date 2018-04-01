@@ -1,0 +1,26 @@
+<!--
+ - Copyright 2015-2020 qtyd Group.
+ -  
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ghq</groupId>
+	    <artifactId>dubbo-starter</artifactId>
+	    <version>1.0</version>	
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<artifactId>demo</artifactId>
+	<packaging>pom</packaging>
+	<name>${project.artifactId}</name>
+	<description>The demo module of qtyd project</description>
+	<properties>
+		<skip_maven_deploy>true</skip_maven_deploy>
+	</properties>
+	<modules>
+		<module>api</module>
+		<module>client</module>
+		<module>server</module>
+	</modules>
+</project>
