@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
- * @author xiaofei.wxf(teaey)
+ * @author hucheng
  * @since 0.0.0
  */
 @SpringBootApplication

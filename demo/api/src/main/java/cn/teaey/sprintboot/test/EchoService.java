@@ -1,7 +1,7 @@
 package cn.teaey.sprintboot.test;
 
 /**
- * @author xiaofei.wxf(teaey)
+ * @author hucheng
  * @since 0.0.0
  */
 public interface EchoService {

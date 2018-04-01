@@ -4,7 +4,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import cn.teaey.sprintboot.test.EchoService;
 
 /**
- * @author xiaofei.wxf(teaey)
+ * @author hucheng
  * @since 0.0.0
  */
 @Service(version = "1.0.0")

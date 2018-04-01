@@ -4,7 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Component;
 
 /**
- * @author xiaofei.wxf(teaey)
+ * @author hucheng
  * @since 0.0.0
  */
 @Component
