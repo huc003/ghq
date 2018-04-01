@@ -16,9 +16,9 @@ import io.swagger.models.Swagger;
 	Swagger.class
 })
 @SpringBootApplication
-public class consumer {
+public class Consumer {
     public static void main(String[] args) {
-        ConfigurableApplicationContext run = SpringApplication.run(consumer.class, args);
+        ConfigurableApplicationContext run = SpringApplication.run(Consumer.class, args);
         AbcService bean = run.getBean(AbcService.class);
         System.out.println(bean.echoService.echo("abccc"));
     }
